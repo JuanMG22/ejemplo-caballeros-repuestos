@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* NavBar */
+.flexNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(13, 13, 194);
+}
+nav{
+    margin: 0rem 0rem 0rem 0rem;
+}
+li{
+    margin: 0rem 0rem 0rem 1.2rem;
+}
+#home{
+    margin: 0rem 0rem 0rem 42rem;
+}
+#logo{
+    width: 40px;
+    height: 40px;
+    padding: 0.8rem;
+    margin: 0rem 0rem 0rem -5rem;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+/* Primera decoración */
+.flexDeco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(141, 136, 136);
+}
+#textDeco{
+    margin: 1rem 5rem 0rem 0rem;
+    font-size: 3rem;
+    text-align: center;
+}
+/* --- --- CAROUSEL --- --- */
+.contenedor {
+	max-width: 750px;
+	width: 90%;
+	margin: auto;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior,.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 15px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: gray;
+	opacity: 100%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -30px;
+}
+
+.carousel__siguiente {
+	right: -30px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+}
+
+/* @media screen and (max-width: 800px) {
+	body {
+		padding: 40px 0;
+	}
+
+	.contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+} */
+
+/* ----- Catalogo ----- */
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 10rem;
+	margin-bottom: 5rem;
+	gap: 40px;
+}
+.containerElement{
+	border: 1px solid black;
+	margin: 0rem 2rem;
+	padding: 2rem;
+}
+.catImg{
+	width: 200px;
+	object-fit: cover;
+	margin-bottom: 3rem;
+}
+.comprado{
+	margin-top: 1.5rem;
+}
