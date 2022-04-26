@@ -11,6 +11,7 @@ const productos = [
         precio: 500,
         marca: "ford",
         stock: stockBase,
+        img: "../imagenes/amortiguadores/1.jpg",
         id: 1
     },
     {
@@ -18,14 +19,16 @@ const productos = [
         precio: 1000,
         marca: "chevrolet",
         stock: stockBase,
+        img: "../imagenes/amortiguadores/2.jpg",
         id: 2
-    }
+    },
 ]
 
 
     const mostrarProductos = () => {
         productos.map(producto => {
-            templateCard.querySelector(`.card-title`).textContent = templateCard.querySelector(`.card-title`).textContent + producto.nombre;
+            templateCard.querySelector(`.catImg`).setAttribute('src', producto.img)
+            templateCard.querySelector(`.card-title`).textContent = producto.nombre;
             const clone = templateCard.cloneNode(true);
             fragment.append(clone);
         });
