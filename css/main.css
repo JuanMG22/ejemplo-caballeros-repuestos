@@ -105,7 +105,7 @@ a{
 } */
 
 /* ----- Catalogo ----- */
-.container{
+.cc{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -114,7 +114,7 @@ a{
 	margin-bottom: 5rem;
 	gap: 40px;
 }
-.containerElement{
+.ccElement{
 	border: 1px solid black;
 	margin: 0rem 2rem;
 	padding: 2rem;
@@ -127,3 +127,14 @@ a{
 .comprado{
 	margin-top: 1.5rem;
 }
+.btn-finalizarFlex{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5rem;
+	font-size: 3rem;
+}
+#btn-finalizar{
+	padding: 2rem;
+}
+
+/* ----- Carrito ----- */

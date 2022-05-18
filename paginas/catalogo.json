@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "am1",
+        "precio": 500,
+        "marca": "ford",
+        "stock": "stockBase",
+        "img": "../imagenes/amortiguadores/1.jpg",
+        "id": 1
+    },
+    {
+        "nombre": "am2",
+        "precio": 1000,
+        "marca": "chevrolet",
+        "stock": "stockBase",
+        "img": "../imagenes/amortiguadores/2.jpg",
+        "id": 2
+    },
+    {
+        "nombre": "am3",
+        "precio": 500,
+        "marca": "ford",
+        "stock": "stockBase",
+        "img": "../imagenes/amortiguadores/1.jpg",
+        "id": 3
+    },
+    {
+        "nombre": "am4",
+        "precio": 1000,
+        "marca": "chevrolet",
+        "stock": "stockBase",
+        "img": "../imagenes/amortiguadores/2.jpg",
+        "id": 4
+    },
+    {
+        "nombre": "am5",
+        "precio": 500,
+        "marca": "ford",
+        "stock": "stockBase",
+        "img": "../imagenes/amortiguadores/1.jpg",
+        "id": 5
+    },
+    {
+        "nombre": "am6",
+        "precio": 1000,
+        "marca": "chevrolet",
+        "stock": "stockBase",
+        "img": "../imagenes/amortiguadores/2.jpg",
+        "id": 6
+    }
+]
